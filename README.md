@@ -1,8 +1,8 @@
 # 🚀 WP Docker OpenResty Image – Brotli + Cache Purge Ready
 
-[![Build & Push to GHCR](https://github.com/your-username/wp-docker-openresty/actions/workflows/docker-build.yml/badge.svg)](https://github.com/your-username/wp-docker-openresty/actions)
-[![Docker Image Size](https://img.shields.io/docker/image-size/ghcr.io/your-username/wp-docker-openresty/latest)](https://ghcr.io/your-username/wp-docker-openresty)
-[![GitHub License](https://img.shields.io/github/license/your-username/wp-docker-openresty)](./LICENSE)
+[![Build & Push to GHCR](https://github.com/thachpn165/wpdocker-openresty/actions/workflows/docker-build.yml/badge.svg)](https://github.com/thachpn165/wpdocker-openresty/actions)
+[![Docker Image Size](https://img.shields.io/docker/image-size/ghcr.io/thachpn165/wpdocker-openresty/latest)](https://ghcr.io/thachpn165/wpdocker-openresty)
+[![GitHub License](https://img.shields.io/github/license/thachpn165/wpdocker-openresty)](./LICENSE)
 
 A **custom multi-arch OpenResty Docker image** with Brotli compression and `ngx_cache_purge` module – built for WordPress and NGINX reverse proxy environments.
 
@@ -23,7 +23,7 @@ A **custom multi-arch OpenResty Docker image** with Brotli compression and `ngx_
 ### 🐳 Pull from GitHub Container Registry
 
 ```bash
-docker pull ghcr.io/your-username/wp-docker-openresty:latest
+docker pull ghcr.io/thachpn165/wpdocker-openresty:latest
 ```
 
 ### 🧪 Run directly:
@@ -31,10 +31,9 @@ docker pull ghcr.io/your-username/wp-docker-openresty:latest
 ```bash
 docker run --rm -it \
   -p 8080:80 \
-  ghcr.io/your-username/wp-docker-openresty:latest nginx -V
+  ghcr.io/thachpn165/wpdocker-openresty:latest nginx -V
 ```
 
-> Replace `your-username` with your actual GitHub username.
 
 ---
 
