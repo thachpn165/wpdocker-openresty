@@ -1,10 +1,8 @@
 # 🚀 WP Docker OpenResty Image – Brotli + Cache Purge Ready
 
-[![Build & Push to GHCR](https://github.com/thachpn165/wpdocker-openresty/actions/workflows/docker-build.yml/badge.svg)](https://github.com/thachpn165/wpdocker-openresty/actions)
-[![Docker Image Size](https://img.shields.io/docker/image-size/ghcr.io/thachpn165/wpdocker-openresty/latest)](https://ghcr.io/thachpn165/wpdocker-openresty)
-[![GitHub License](https://img.shields.io/github/license/thachpn165/wpdocker-openresty)](./LICENSE)
 
-A **custom multi-arch OpenResty Docker image** with Brotli compression and `ngx_cache_purge` module – built for WordPress and NGINX reverse proxy environments.
+
+A **custom multi-arch OpenResty Docker image** with Brotli compression and `ngx_cache_purge` module – built for WordPress and NGINX environments.
 
 ---
 
